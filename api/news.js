@@ -3,7 +3,7 @@ const axios = require("axios");
 
 module.exports = async (req, res) => {
   const query = req.query.q || "latest";
-  const apiKey = "585704a57d45421ea833bc5afa6e857d";
+  const apiKey = "YOUR_NEWSAPI_KEY";
 
   try {
     const response = await axios.get(
